@@ -2,47 +2,15 @@
 This final assignment will help you to consolidate all the knowledge in this training course and help mentors to evaluate
 your comprehension towards relational database.
 
-## Description
-A relational database is needed for a simple blog post website that enables users to read, share articles 
-follow and custom their feed of data and share their comments on the article they might find interest
-In this website, there are 2 types of user, guest reader and authors
+## What to do
+1. Read and study the problem description in this [assignment](https://github.com/skill-forger/assignments/blob/main/social-blogging-website.md).
+2. Identify the entities, attributes and relationships from the assignment.
+3. Construct an entity relationship diagram (ERD) to represent the result of step 2.
+4. Present and defend your design of the entity relationship diagram.
+5. Create tables and seed sample data using structure query language (SQL).
 
-a guest reader can view and see articles, comments, tags in the website without 
-authors, on the other hand, needs to obtain a registered account to comments and publish articles
-
-Guest users can sign in to become authenticated user
-sign up to become a member of the website
-view all the articles
-view all the tags
-view article list by specific condition
-view comments of the articles
-view author profiles
-
-
-Author can do every action of the guests user and
-Authenticated users can view their own profile information
-change password
-update profile information
-
-create new articles
-publish articles
-update articles
-delete articles
-list articles from following authors
-
-view all following author
-follow authors
-unfollow authors
-
-view all comments in the past
-make comment on an article
-delete comment on an article
-
-view articles in the favourite list
-put an article into the favourite list
-remove an article from the favourite list
-
-## Task
-- Read the assignment description and list out the database entities 
-- Design an entity relationship diagram and entities' relationship
-- Propose and defend your database design
+## Expected Outcome
+1. A document containing a list of entities, attributes and relationships.
+2. A diagram of entity relationship with all the entities, attributes and relationships.
+3. A slide to present and defend your database design.
+4. A working database with all the tables and sample data.
