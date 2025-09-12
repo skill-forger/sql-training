@@ -9,16 +9,16 @@ and Structured Query Language (SQL) from the ground up.
 - Work on the final assignment along with other tools and languages
 
 ## Course content
-- [0. Init](./0.%20Init)
-- [1. Overview](./1.%20Overview)
-- [2. Query](./2.%20Query)
-- [3. Structure and Operations](./3.%20Structure%20and%20Operations)
-- [4. Functions](./4.%20Functions)
-- [5. Joins](./5.%20Joins)
-- [6. SubQuery, View, CTE](./6.%20Subquery,%20View,%20CTE)
-- [7. SQL Standards](./7.%20SQL%20Standards)
-- [8. Transaction](./8.%20Transaction)
-- [9. Final Assignment](./9.%20Final%20Assignments)
+- [0. Init](./00. Init)
+- [1. Overview](./01. Overview)
+- [2. Query](./02. Query)
+- [3. Structure and Operations](./03. Structure and Operations)
+- [4. Functions](./04. Functions)
+- [5. Joins](./05. Joins)
+- [6. SubQuery, View, CTE](./06. Subquery, View, CTE)
+- [7. SQL Standards](./07. SQL Standards)
+- [8. Transaction](./08. Transaction)
+- [9. Final Assignment](./09. Practice Assignment)
 
 ## How to learn
 - Start with the topic `0. Init` to install necessary tools

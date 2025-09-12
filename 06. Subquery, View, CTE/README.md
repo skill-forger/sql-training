@@ -1,4 +1,4 @@
-# Week 6: Subquery, View, CTE
+# Module 06: Subquery, View, CTE
 
 ## Table of Contents
 <ol>
@@ -239,7 +239,7 @@ WHERE e.job_title = dc.job_title;
 | `order_items`        | Detail of each order(product, quantity, price,..s.) | Link to table `orders` using **order_id**     |
 
 ### Database Diagram
-![database_diagram](../2.%20Query/images/diagram_chap2.png "database diagram")
+![database_diagram](../02.%20Query/images/diagram_chap2.png "database diagram")
 
 1. Get product information and average selling price of those products.
 2. Retrieve products that have never been sold.

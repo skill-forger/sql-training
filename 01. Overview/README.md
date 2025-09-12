@@ -1,4 +1,4 @@
-# Week 1: Overview
+# Module 01: Overview
 
 ## Table of Contents
 <ol>

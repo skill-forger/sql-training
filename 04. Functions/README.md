@@ -1,4 +1,4 @@
-# Week 4: Functions
+# Module 04: Functions
 
 ## Table of Contents
 <ol>
@@ -29,14 +29,14 @@ The following table list out some of the common numeric functions that are avail
 
 For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/numeric-functions.html). 
 
-| Command        | Description                                                                                                                                                                                            | Syntax                                 |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| **ABS()**      | Returns the absolute value of numeric expression                                                                                                                                                       | SELECT ABS(x) AS result;               |
-| **CEIL()**     | Returns the smallest integer value that is not less than passed numeric expression                                                                                                                     | SELECT CEIL(22.3) AS result;           |
-| **FLOOR()**    | Returns the largest integer value that is not greater than passed numeric expression                                                                                                                   | SELECT FLOOR(22.3) AS result;          |
-| **POW()**      | Returns the value of one expression raised to the power of another expression                                                                                                                          | SELECT POW(2, 3) AS result;            |
-| **ROUND()**    | Returns numeric expression rounded to an integer. This function accepts two parameters: the numeric expression to be rounded, and an optional second parameter specifying the number of decimal places | SELECT ROUND(5.6523, 2) AS result;     |
-| **SQRT()**     | Returns the non-negative square root of numeric expression                                                                                                                                             | SELECT SQRT(144) AS result;            |
+| Command        | Description                                                                                                                                                                                            | Syntax                                   |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| **ABS()**      | Returns the absolute value of numeric expression                                                                                                                                                       | SELECT ABS(x) AS result;                 |
+| **CEIL()**     | Returns the smallest integer value that is not less than passed numeric expression                                                                                                                     | SELECT CEIL(22.3) AS result;             |
+| **FLOOR()**    | Returns the largest integer value that is not greater than passed numeric expression                                                                                                                   | SELECT FLOOR(22.3) AS result;            |
+| **POW()**      | Returns the value of one expression raised to the power of another expression                                                                                                                          | SELECT POW(2, 3) AS result;              |
+| **ROUND()**    | Returns numeric expression rounded to an integer. This function accepts two parameters: the numeric expression to be rounded, and an optional second parameter specifying the number of decimal places | SELECT ROUND(5.6523, 2) AS result;       |
+| **SQRT()**     | Returns the non-negative square root of numeric expression                                                                                                                                             | SELECT SQRT(144) AS result;              |
 | **TRUNCATE()** | Returns numeric exp1 truncated to exp2 decimal places. If exp2 is 0, then the result will have no decimal point                                                                                        | SELECT TRUNCATE(225.33654, 3) AS result; |
 
 
@@ -100,7 +100,7 @@ For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/aggr
 | `order_items`        | Detail of each order(product, quantity, price,..s.) | Link to table `orders` using **order_id**     |
 
 ### Database Diagram
-![database_diagram](../2.%20Query/images/diagram_chap2.png "database diagram")
+![database_diagram](../02.%20Query/images/diagram_chap2.png "database diagram")
 
 1. Get all information in table `customers` 
 2. Convert customer name to **uppercase** and address to **lowercase**

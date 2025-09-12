@@ -1,4 +1,4 @@
-# Week 5: Joins
+# Module 05: Joins
 
 ## Table of Contents
 <ol>

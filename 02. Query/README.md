@@ -1,4 +1,4 @@
-# Week 2: Query
+# Module 02: Query
 
 ## Table of Contents
 <ol>
@@ -241,7 +241,7 @@ REVOKE UPDATE ON employees FROM user_name;
 
 ## Transaction Control Language
 
-Transactions group a set of tasks into a single execution unit. Each transaction begins with a specific task and ends when all the tasks in the group are successfully completed. If any of the tasks fail, the transaction fails. Therefore, a transaction has only two results: **success** or **failure**. We can explore more about transactions in [Chapter 8](../8.%20Transaction/README.md).
+Transactions group a set of tasks into a single execution unit. Each transaction begins with a specific task and ends when all the tasks in the group are successfully completed. If any of the tasks fail, the transaction fails. Therefore, a transaction has only two results: **success** or **failure**. We can explore more about transactions in [Chapter 8](../08.%20Transaction/README.md).
 
 | Command               | Description                                        | Syntax                                     |
 |-----------------------|----------------------------------------------------|--------------------------------------------|

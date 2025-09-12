@@ -1,4 +1,4 @@
-# Week 7: SQL Standards
+# Module 07: SQL Standards
 
 ## Table of Contents
 <ol>

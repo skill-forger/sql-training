@@ -1,4 +1,4 @@
-# Week 9: Final Assignments
+# Module 09: Practice Assignment
 This final assignment will help you to consolidate all the knowledge in this training course and help mentors to evaluate
 your comprehension towards relational database.
 

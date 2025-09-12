@@ -1,4 +1,4 @@
-# Week 3: Structure and Operations
+# Module 03: Structure and Operations
 
 ## Table of Contents
 <ol>

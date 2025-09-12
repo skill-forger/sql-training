@@ -1,4 +1,4 @@
-# Week 8: Transaction
+# Module 08: Transaction
 
 ## Table of Contents
 <ol>
