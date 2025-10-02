@@ -1,7 +1,9 @@
 # Module 04: Functions
 
 ## Table of Contents
+
 <ol>
+    <li><a href="#overview">Overview</a></li>
     <li><a href="#objectives">Objectives</a></li>
     <li><a href="#numeric-functions">Numeric Functions</a></li>
     <li><a href="#string-functions">String Functions</a></li>
@@ -13,7 +15,8 @@
 ## Overview
 
 - This chapter introduces the concept of SQL functions and how to use them to enhance the functionality of queries.
-- Functions simplify complex operations by encapsulating reusable logic and can transform, aggregate, or analyze data effectively.
+- Functions simplify complex operations by encapsulating reusable logic and can transform, aggregate, or analyze data
+  effectively.
 - SQL Functions are used to perform different operations on the database.
 
 ## Objectives
@@ -24,10 +27,10 @@
 
 ## Numeric Functions
 
-MySQL numeric functions are used primarily for numeric manipulation and/or mathematical calculations. 
+MySQL numeric functions are used primarily for numeric manipulation and/or mathematical calculations.
 The following table list out some of the common numeric functions that are available in the MySQL.
 
-For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/numeric-functions.html). 
+For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/numeric-functions.html).
 
 | Command        | Description                                                                                                                                                                                            | Syntax                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
@@ -39,10 +42,10 @@ For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/nume
 | **SQRT()**     | Returns the non-negative square root of numeric expression                                                                                                                                             | SELECT SQRT(144) AS result;              |
 | **TRUNCATE()** | Returns numeric exp1 truncated to exp2 decimal places. If exp2 is 0, then the result will have no decimal point                                                                                        | SELECT TRUNCATE(225.33654, 3) AS result; |
 
-
 ## String Functions
 
-MySQL string functions are used to manipulate the string values. The following table list out some of the common string functions that are available in the MySQL.
+MySQL string functions are used to manipulate the string values. The following table list out some of the common string
+functions that are available in the MySQL.
 
 For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/string-functions.html).
 
@@ -56,7 +59,8 @@ For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/stri
 
 ## Date and Time Functions
 
-Date and Time functions in SQL are used to manipulate and transform date and time data stored in tables. Date functions operate on values of the DATE datatype.
+Date and Time functions in SQL are used to manipulate and transform date and time data stored in tables. Date functions
+operate on values of the DATE datatype.
 
 For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/date-and-time-functions.html).
 
@@ -68,10 +72,10 @@ For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/date
 | **DATEDIFF()**     | Used to calculate the difference in days between two dates. It takes two date expressions as arguments and returns the number of days between them                    | SELECT DATEDIFF('2025-01-13', '2025-02-20') AS result;  |
 | **NOW()**          | Returns the current date and time                                                                                                                                     | SELECT NOW() AS result;                                 |
 
-
 ## Aggregate Functions
 
-SQL Aggregate Functions operate on a data group and return a singular output. They are mostly used with the GROUP BY clause to summarize data.
+SQL Aggregate Functions operate on a data group and return a singular output. They are mostly used with the GROUP BY
+clause to summarize data.
 
 For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/aggregate-functions-and-modifiers.html).
 
@@ -100,22 +104,24 @@ For further detail can refer [here](https://dev.mysql.com/doc/refman/8.4/en/aggr
 | `order_items`        | Detail of each order(product, quantity, price,..s.) | Link to table `orders` using **order_id**     |
 
 ### Database Diagram
+
 ![database_diagram](../02.%20Query/images/diagram_chap2.png "database diagram")
 
-1. Get all information in table `customers` 
+1. Get all information in table `customers`
 2. Convert customer name to **uppercase** and address to **lowercase**
-3. Find total, maximum, minimum, average price of orders 
+3. Find total, maximum, minimum, average price of orders
 4. Find average price of all orders sold in 2024
 5. Find total price of all orders sold from 2020 to 2024
 6. Find total, maximum, minimum, average price of orders with status `Pending`
 7. Find total, maximum, minimum, average price of orders with status `Shipped` and order date greater than 1/1/2024
-8. Find total (round up to first number in decimal), maximum, minimum, average price of orders with status `Shipped` and order date greater than 1/1/2024
+8. Find total (round up to first number in decimal), maximum, minimum, average price of orders with status `Shipped` and
+   order date greater than 1/1/2024
 9. Find customer id(s) have more than 4 times buying successfully (have order with status `Shipped`)
-10. Find customer id(s) have more than 2 order in 2024 
+10. Find customer id(s) have more than 2 order in 2024
 11. Find total, maximum, minimum, average of `list_price` by each category (using `category_id`)
 12. Find total income by each month in 2024
 13. Find total income by each month, year from 2023 to 2024
-14. Find top 3 customers with highest order value in 2024 
+14. Find top 3 customers with highest order value in 2024
 15. Find the Top 3 products with the lowest total sales quantity
 
 
